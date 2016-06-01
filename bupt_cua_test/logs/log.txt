@@ -1,0 +1,894 @@
+12:33:46 [org.hibernate.annotations.common.Version.<clinit>(Version.java:37)]    INFO - Hibernate Commons Annotations 3.2.0.Final
+12:33:46 [org.hibernate.cfg.Environment.<clinit>(Environment.java:603)]    INFO - Hibernate 3.6.10.Final
+12:33:46 [org.hibernate.cfg.Environment.<clinit>(Environment.java:636)]    INFO - hibernate.properties not found
+12:33:46 [org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:814)]    INFO - Bytecode provider name : javassist
+12:33:46 [org.hibernate.cfg.Environment.<clinit>(Environment.java:695)]    INFO - using JDK 1.4 java.sql.Timestamp handling
+12:33:46 [org.hibernate.cfg.Configuration.configure(Configuration.java:2156)]    INFO - configuring from resource: /hibernate.cfg.xml
+12:33:46 [org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2175)]    INFO - Configuration resource: /hibernate.cfg.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/AdminInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelDestinationInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/QuestionInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNoteInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNotePhotoInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyFileInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TopPhotoInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyTopPhotoInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelnoteTopPhotoInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/JourneyInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/ProductInfo.hbm.xml
+12:33:46 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:33:46 [org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2297)]    INFO - Configured SessionFactory: null
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.AdminInfo -> admin_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelDestinationInfo -> traveldestination_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.QuestionInfo -> question_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNoteInfo -> travelnote_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNotePhotoInfo -> travelnotephoto_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyFileInfo -> strategyfile_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TopPhotoInfo -> topPhoto_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyTopPhotoInfo -> strategyTopPhoto_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelnoteTopPhotoInfo -> travelnoteTopPhoto_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.JourneyInfo -> journey_info
+12:33:46 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.ProductInfo -> product_info
+12:33:46 [org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL(Configuration.java:1676)]    INFO - Hibernate Validator not found: ignoring
+12:33:46 [org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)]    INFO - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+12:33:46 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)]    INFO - Using Hibernate built-in connection pool (not for production use!)
+12:33:46 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)]    INFO - Hibernate connection pool size: 20
+12:33:46 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)]    INFO - autocommit mode: true
+12:33:46 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)]    INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql:///cua_test
+12:33:46 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)]    INFO - connection properties: {user=root, password=****, autocommit=true}
+12:33:46 [org.hibernate.dialect.Dialect.<init>(Dialect.java:136)]    INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+12:33:46 [org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:79)]    INFO - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:126)]    INFO - Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:132)]    INFO - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+12:33:46 [org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)]    INFO - Using default transaction strategy (direct JDBC transactions)
+12:33:46 [org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:83)]    INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:179)]    INFO - Automatic flush during beforeCompletion(): disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)]    INFO - Automatic session close at end of transaction: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:190)]    INFO - JDBC batch size: 15
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:193)]    INFO - JDBC batch updates for versioned data: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:198)]    INFO - Scrollable result sets: enabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:206)]    INFO - JDBC3 getGeneratedKeys(): enabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:214)]    INFO - Connection release mode: auto
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:238)]    INFO - Maximum outer join fetch depth: 2
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:241)]    INFO - Default batch fetch size: 1
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:245)]    INFO - Generate SQL with comments: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:249)]    INFO - Order SQL updates by primary key: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)]    INFO - Order SQL inserts for batching: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:431)]    INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+12:33:46 [org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)]    INFO - Using ASTQueryTranslatorFactory
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)]    INFO - Query language substitutions: {}
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:266)]    INFO - JPA-QL strict compliance: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:271)]    INFO - Second-level cache: enabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)]    INFO - Query cache: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:406)]    INFO - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:285)]    INFO - Optimize cache for minimal puts: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:294)]    INFO - Structured second-level cache entries: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:314)]    INFO - Echoing all SQL to stdout
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:323)]    INFO - Statistics: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:327)]    INFO - Deleted entity synthetic identifier rollback: disabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:343)]    INFO - Default entity-mode: pojo
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:347)]    INFO - Named query checking : enabled
+12:33:46 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:351)]    INFO - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+12:33:47 [org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:202)]    INFO - building session factory
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1ecfe07
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1ecfe07
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@199939
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@9a9b65
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@502819
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [clob] overrides previous : org.hibernate.type.ClobType@78aa80
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@78aa80
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1d98a
+12:33:47 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1712651
+12:33:47 [org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)]    INFO - Not binding factory to JNDI, no JNDI name configured
+12:33:47 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:155)]    INFO - Running hbm2ddl schema update
+12:33:47 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:167)]    INFO - fetching database metadata
+12:33:47 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:179)]    INFO - updating schema
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.admin_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [adminnumber, loginname, adminsex, adminphonenumber, adminmail, adminname, adminrole, adminpassword, adminid, admindepartment]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.journey_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [journeydescription, journeytitle, journeyrealname, journeydaynumber, journeyfilename, journeyid, productname]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.product_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, startdate, productrealname, productfilename, productid, productcellphone, cityname, productdescription, enddate, productprice, productname]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.question_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [questionname, questioncontent, questionid, questiontime]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategytopphoto_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [updatetime, strategytopphotorealname, strategytopphotoid, strategytopphotofilename]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategyfile_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, strategyfileid, updatetime, amountofdownload, strategyphotorealname, strategyfilerealname, cityname, strategyfilename, strategyphotofilename]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.topphoto_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [topphotoid, updatetime, topphotofilename, topphotorealname]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.traveldestination_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [cityphotofilename, isthemetype, fooddescription, cityphotorealname, istopseason, trafficphotorealname, themenickname, ishometopseason, area, trafficphotofilename, shoppingphotorealname, description, spotphotorealname, province, ishomethemetype, shoppingdescription, themetype, topseason, shoppingphotofilename, foodphotorealname, homeorabroad, spotdescription, spotphotofilename, trafficdescription, foodphotofilename, cityname]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotetopphoto_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotetopphotoid, travelnotetopphotofilename, updatetime, travelnotetopphotorealname]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnote_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, publictime, travelnoteid, travelnotefilename, travelnoteauthor, travelnotecontent, travelnotename, travelnoterealname, cityname]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotephoto_info
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotephotoauthor, travelnotephotofilename, travelnotename, travelnotephotorealname, travelnotephotoid]
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:33:47 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:33:47 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:217)]    INFO - schema update complete
+12:35:49 [org.hibernate.annotations.common.Version.<clinit>(Version.java:37)]    INFO - Hibernate Commons Annotations 3.2.0.Final
+12:35:49 [org.hibernate.cfg.Environment.<clinit>(Environment.java:603)]    INFO - Hibernate 3.6.10.Final
+12:35:49 [org.hibernate.cfg.Environment.<clinit>(Environment.java:636)]    INFO - hibernate.properties not found
+12:35:49 [org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:814)]    INFO - Bytecode provider name : javassist
+12:35:49 [org.hibernate.cfg.Environment.<clinit>(Environment.java:695)]    INFO - using JDK 1.4 java.sql.Timestamp handling
+12:35:49 [org.hibernate.cfg.Configuration.configure(Configuration.java:2156)]    INFO - configuring from resource: /hibernate.cfg.xml
+12:35:49 [org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2175)]    INFO - Configuration resource: /hibernate.cfg.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/AdminInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelDestinationInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/QuestionInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNoteInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNotePhotoInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyFileInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TopPhotoInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyTopPhotoInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelnoteTopPhotoInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/JourneyInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/ProductInfo.hbm.xml
+12:35:49 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:35:49 [org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2297)]    INFO - Configured SessionFactory: null
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.AdminInfo -> admin_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelDestinationInfo -> traveldestination_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.QuestionInfo -> question_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNoteInfo -> travelnote_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNotePhotoInfo -> travelnotephoto_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyFileInfo -> strategyfile_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TopPhotoInfo -> topPhoto_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyTopPhotoInfo -> strategyTopPhoto_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelnoteTopPhotoInfo -> travelnoteTopPhoto_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.JourneyInfo -> journey_info
+12:35:49 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.ProductInfo -> product_info
+12:35:49 [org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL(Configuration.java:1676)]    INFO - Hibernate Validator not found: ignoring
+12:35:49 [org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)]    INFO - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+12:35:49 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)]    INFO - Using Hibernate built-in connection pool (not for production use!)
+12:35:49 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)]    INFO - Hibernate connection pool size: 20
+12:35:49 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)]    INFO - autocommit mode: true
+12:35:49 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)]    INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql:///cua_test
+12:35:49 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)]    INFO - connection properties: {user=root, password=****, autocommit=true}
+12:35:49 [org.hibernate.dialect.Dialect.<init>(Dialect.java:136)]    INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+12:35:49 [org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:79)]    INFO - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:126)]    INFO - Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:132)]    INFO - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+12:35:49 [org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)]    INFO - Using default transaction strategy (direct JDBC transactions)
+12:35:49 [org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:83)]    INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:179)]    INFO - Automatic flush during beforeCompletion(): disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)]    INFO - Automatic session close at end of transaction: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:190)]    INFO - JDBC batch size: 15
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:193)]    INFO - JDBC batch updates for versioned data: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:198)]    INFO - Scrollable result sets: enabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:206)]    INFO - JDBC3 getGeneratedKeys(): enabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:214)]    INFO - Connection release mode: auto
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:238)]    INFO - Maximum outer join fetch depth: 2
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:241)]    INFO - Default batch fetch size: 1
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:245)]    INFO - Generate SQL with comments: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:249)]    INFO - Order SQL updates by primary key: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)]    INFO - Order SQL inserts for batching: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:431)]    INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+12:35:49 [org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)]    INFO - Using ASTQueryTranslatorFactory
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)]    INFO - Query language substitutions: {}
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:266)]    INFO - JPA-QL strict compliance: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:271)]    INFO - Second-level cache: enabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)]    INFO - Query cache: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:406)]    INFO - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:285)]    INFO - Optimize cache for minimal puts: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:294)]    INFO - Structured second-level cache entries: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:314)]    INFO - Echoing all SQL to stdout
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:323)]    INFO - Statistics: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:327)]    INFO - Deleted entity synthetic identifier rollback: disabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:343)]    INFO - Default entity-mode: pojo
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:347)]    INFO - Named query checking : enabled
+12:35:49 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:351)]    INFO - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+12:35:49 [org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:202)]    INFO - building session factory
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1911540
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@a4488
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@19762f
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19e215b
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [blob] overrides previous : org.hibernate.type.BlobType@9ff0a8
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@9ff0a8
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [clob] overrides previous : org.hibernate.type.ClobType@70be88
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@70be88
+12:35:49 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1ecfe07
+12:35:50 [org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)]    INFO - Not binding factory to JNDI, no JNDI name configured
+12:35:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:155)]    INFO - Running hbm2ddl schema update
+12:35:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:167)]    INFO - fetching database metadata
+12:35:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:179)]    INFO - updating schema
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.admin_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [adminnumber, loginname, adminsex, adminphonenumber, adminmail, adminname, adminrole, adminpassword, adminid, admindepartment]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.journey_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [journeydescription, journeytitle, journeyrealname, journeydaynumber, journeyfilename, journeyid, productname]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.product_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, startdate, productrealname, productfilename, productid, productcellphone, cityname, productdescription, enddate, productprice, productname]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.question_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [questionname, questioncontent, questionid, questiontime]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategytopphoto_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [updatetime, strategytopphotorealname, strategytopphotoid, strategytopphotofilename]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategyfile_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, strategyfileid, updatetime, amountofdownload, strategyphotorealname, strategyfilerealname, cityname, strategyfilename, strategyphotofilename]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.topphoto_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [topphotoid, updatetime, topphotofilename, topphotorealname]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.traveldestination_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [cityphotofilename, isthemetype, fooddescription, cityphotorealname, istopseason, trafficphotorealname, themenickname, ishometopseason, area, trafficphotofilename, shoppingphotorealname, description, spotphotorealname, province, ishomethemetype, shoppingdescription, themetype, topseason, shoppingphotofilename, foodphotorealname, homeorabroad, spotdescription, spotphotofilename, trafficdescription, foodphotofilename, cityname]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotetopphoto_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotetopphotoid, travelnotetopphotofilename, updatetime, travelnotetopphotorealname]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnote_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, publictime, travelnoteid, travelnotefilename, travelnoteauthor, travelnotecontent, travelnotename, travelnoterealname, cityname]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotephoto_info
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotephotoauthor, travelnotephotofilename, travelnotename, travelnotephotorealname, travelnotephotoid]
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:35:50 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:35:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:217)]    INFO - schema update complete
+12:36:20 [org.hibernate.annotations.common.Version.<clinit>(Version.java:37)]    INFO - Hibernate Commons Annotations 3.2.0.Final
+12:36:20 [org.hibernate.cfg.Environment.<clinit>(Environment.java:603)]    INFO - Hibernate 3.6.10.Final
+12:36:20 [org.hibernate.cfg.Environment.<clinit>(Environment.java:636)]    INFO - hibernate.properties not found
+12:36:20 [org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:814)]    INFO - Bytecode provider name : javassist
+12:36:20 [org.hibernate.cfg.Environment.<clinit>(Environment.java:695)]    INFO - using JDK 1.4 java.sql.Timestamp handling
+12:36:20 [org.hibernate.cfg.Configuration.configure(Configuration.java:2156)]    INFO - configuring from resource: /hibernate.cfg.xml
+12:36:20 [org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2175)]    INFO - Configuration resource: /hibernate.cfg.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/AdminInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelDestinationInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/QuestionInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNoteInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNotePhotoInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyFileInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TopPhotoInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyTopPhotoInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelnoteTopPhotoInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/JourneyInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/ProductInfo.hbm.xml
+12:36:20 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+12:36:20 [org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2297)]    INFO - Configured SessionFactory: null
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.AdminInfo -> admin_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelDestinationInfo -> traveldestination_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.QuestionInfo -> question_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNoteInfo -> travelnote_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNotePhotoInfo -> travelnotephoto_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyFileInfo -> strategyfile_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TopPhotoInfo -> topPhoto_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyTopPhotoInfo -> strategyTopPhoto_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelnoteTopPhotoInfo -> travelnoteTopPhoto_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.JourneyInfo -> journey_info
+12:36:20 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.ProductInfo -> product_info
+12:36:20 [org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL(Configuration.java:1676)]    INFO - Hibernate Validator not found: ignoring
+12:36:20 [org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)]    INFO - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+12:36:20 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)]    INFO - Using Hibernate built-in connection pool (not for production use!)
+12:36:20 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)]    INFO - Hibernate connection pool size: 20
+12:36:20 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)]    INFO - autocommit mode: true
+12:36:20 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)]    INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql:///cua_test
+12:36:20 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)]    INFO - connection properties: {user=root, password=****, autocommit=true}
+12:36:20 [org.hibernate.dialect.Dialect.<init>(Dialect.java:136)]    INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+12:36:20 [org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:79)]    INFO - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:126)]    INFO - Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:132)]    INFO - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+12:36:20 [org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)]    INFO - Using default transaction strategy (direct JDBC transactions)
+12:36:20 [org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:83)]    INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:179)]    INFO - Automatic flush during beforeCompletion(): disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)]    INFO - Automatic session close at end of transaction: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:190)]    INFO - JDBC batch size: 15
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:193)]    INFO - JDBC batch updates for versioned data: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:198)]    INFO - Scrollable result sets: enabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:206)]    INFO - JDBC3 getGeneratedKeys(): enabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:214)]    INFO - Connection release mode: auto
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:238)]    INFO - Maximum outer join fetch depth: 2
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:241)]    INFO - Default batch fetch size: 1
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:245)]    INFO - Generate SQL with comments: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:249)]    INFO - Order SQL updates by primary key: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)]    INFO - Order SQL inserts for batching: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:431)]    INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+12:36:20 [org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)]    INFO - Using ASTQueryTranslatorFactory
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)]    INFO - Query language substitutions: {}
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:266)]    INFO - JPA-QL strict compliance: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:271)]    INFO - Second-level cache: enabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)]    INFO - Query cache: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:406)]    INFO - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:285)]    INFO - Optimize cache for minimal puts: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:294)]    INFO - Structured second-level cache entries: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:314)]    INFO - Echoing all SQL to stdout
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:323)]    INFO - Statistics: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:327)]    INFO - Deleted entity synthetic identifier rollback: disabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:343)]    INFO - Default entity-mode: pojo
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:347)]    INFO - Named query checking : enabled
+12:36:20 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:351)]    INFO - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+12:36:20 [org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:202)]    INFO - building session factory
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [blob] overrides previous : org.hibernate.type.BlobType@199939
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@199939
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@9a9b65
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@502819
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@78aa80
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [clob] overrides previous : org.hibernate.type.ClobType@1d98a
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1d98a
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1712651
+12:36:20 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@18aab40
+12:36:21 [org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)]    INFO - Not binding factory to JNDI, no JNDI name configured
+12:36:21 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:155)]    INFO - Running hbm2ddl schema update
+12:36:21 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:167)]    INFO - fetching database metadata
+12:36:21 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:179)]    INFO - updating schema
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.admin_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [adminnumber, loginname, adminsex, adminphonenumber, adminmail, adminname, adminrole, adminpassword, adminid, admindepartment]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.journey_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [journeydescription, journeytitle, journeyrealname, journeydaynumber, journeyfilename, journeyid, productname]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.product_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, startdate, productrealname, productfilename, productid, productcellphone, cityname, productdescription, enddate, productprice, productname]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.question_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [questionname, questioncontent, questionid, questiontime]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategytopphoto_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [updatetime, strategytopphotorealname, strategytopphotoid, strategytopphotofilename]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategyfile_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, strategyfileid, updatetime, amountofdownload, strategyphotorealname, strategyfilerealname, cityname, strategyfilename, strategyphotofilename]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.topphoto_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [topphotoid, updatetime, topphotofilename, topphotorealname]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.traveldestination_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [cityphotofilename, isthemetype, fooddescription, cityphotorealname, istopseason, trafficphotorealname, themenickname, ishometopseason, area, trafficphotofilename, shoppingphotorealname, description, spotphotorealname, province, ishomethemetype, shoppingdescription, themetype, topseason, shoppingphotofilename, foodphotorealname, homeorabroad, spotdescription, spotphotofilename, trafficdescription, foodphotofilename, cityname]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotetopphoto_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotetopphotoid, travelnotetopphotofilename, updatetime, travelnotetopphotorealname]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnote_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, publictime, travelnoteid, travelnotefilename, travelnoteauthor, travelnotecontent, travelnotename, travelnoterealname, cityname]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotephoto_info
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotephotoauthor, travelnotephotofilename, travelnotename, travelnotephotorealname, travelnotephotoid]
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+12:36:21 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+12:36:21 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:217)]    INFO - schema update complete
+13:41:07 [org.hibernate.annotations.common.Version.<clinit>(Version.java:37)]    INFO - Hibernate Commons Annotations 3.2.0.Final
+13:41:07 [org.hibernate.cfg.Environment.<clinit>(Environment.java:603)]    INFO - Hibernate 3.6.10.Final
+13:41:07 [org.hibernate.cfg.Environment.<clinit>(Environment.java:636)]    INFO - hibernate.properties not found
+13:41:07 [org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:814)]    INFO - Bytecode provider name : javassist
+13:41:07 [org.hibernate.cfg.Environment.<clinit>(Environment.java:695)]    INFO - using JDK 1.4 java.sql.Timestamp handling
+13:41:07 [org.hibernate.cfg.Configuration.configure(Configuration.java:2156)]    INFO - configuring from resource: /hibernate.cfg.xml
+13:41:07 [org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2175)]    INFO - Configuration resource: /hibernate.cfg.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/AdminInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelDestinationInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/QuestionInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNoteInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNotePhotoInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyFileInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TopPhotoInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyTopPhotoInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelnoteTopPhotoInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/JourneyInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/ProductInfo.hbm.xml
+13:41:07 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:41:07 [org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2297)]    INFO - Configured SessionFactory: null
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.AdminInfo -> admin_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelDestinationInfo -> traveldestination_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.QuestionInfo -> question_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNoteInfo -> travelnote_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNotePhotoInfo -> travelnotephoto_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyFileInfo -> strategyfile_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TopPhotoInfo -> topPhoto_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyTopPhotoInfo -> strategyTopPhoto_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelnoteTopPhotoInfo -> travelnoteTopPhoto_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.JourneyInfo -> journey_info
+13:41:07 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.ProductInfo -> product_info
+13:41:07 [org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL(Configuration.java:1676)]    INFO - Hibernate Validator not found: ignoring
+13:41:07 [org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)]    INFO - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+13:41:07 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)]    INFO - Using Hibernate built-in connection pool (not for production use!)
+13:41:07 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)]    INFO - Hibernate connection pool size: 20
+13:41:07 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)]    INFO - autocommit mode: true
+13:41:07 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)]    INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql:///cua_test
+13:41:08 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)]    INFO - connection properties: {user=root, password=****, autocommit=true}
+13:41:08 [org.hibernate.dialect.Dialect.<init>(Dialect.java:136)]    INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+13:41:08 [org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:79)]    INFO - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:126)]    INFO - Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:132)]    INFO - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+13:41:08 [org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)]    INFO - Using default transaction strategy (direct JDBC transactions)
+13:41:08 [org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:83)]    INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:179)]    INFO - Automatic flush during beforeCompletion(): disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)]    INFO - Automatic session close at end of transaction: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:190)]    INFO - JDBC batch size: 15
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:193)]    INFO - JDBC batch updates for versioned data: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:198)]    INFO - Scrollable result sets: enabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:206)]    INFO - JDBC3 getGeneratedKeys(): enabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:214)]    INFO - Connection release mode: auto
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:238)]    INFO - Maximum outer join fetch depth: 2
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:241)]    INFO - Default batch fetch size: 1
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:245)]    INFO - Generate SQL with comments: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:249)]    INFO - Order SQL updates by primary key: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)]    INFO - Order SQL inserts for batching: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:431)]    INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+13:41:08 [org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)]    INFO - Using ASTQueryTranslatorFactory
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)]    INFO - Query language substitutions: {}
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:266)]    INFO - JPA-QL strict compliance: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:271)]    INFO - Second-level cache: enabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)]    INFO - Query cache: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:406)]    INFO - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:285)]    INFO - Optimize cache for minimal puts: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:294)]    INFO - Structured second-level cache entries: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:314)]    INFO - Echoing all SQL to stdout
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:323)]    INFO - Statistics: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:327)]    INFO - Deleted entity synthetic identifier rollback: disabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:343)]    INFO - Default entity-mode: pojo
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:347)]    INFO - Named query checking : enabled
+13:41:08 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:351)]    INFO - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+13:41:08 [org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:202)]    INFO - building session factory
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [clob] overrides previous : org.hibernate.type.ClobType@19e215b
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@19e215b
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@70be88
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1ecfe07
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@199939
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@9a9b65
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [blob] overrides previous : org.hibernate.type.BlobType@502819
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@502819
+13:41:08 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@78aa80
+13:41:08 [org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)]    INFO - Not binding factory to JNDI, no JNDI name configured
+13:41:08 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:155)]    INFO - Running hbm2ddl schema update
+13:41:08 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:167)]    INFO - fetching database metadata
+13:41:08 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:179)]    INFO - updating schema
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.admin_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [adminnumber, loginname, adminsex, adminphonenumber, adminmail, adminname, adminrole, adminpassword, adminid, admindepartment]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.journey_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [journeydescription, journeytitle, journeyrealname, journeydaynumber, journeyfilename, journeyid, productname]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.product_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, startdate, productrealname, productfilename, productid, productcellphone, cityname, productdescription, enddate, productprice, productname]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.question_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [questionname, questioncontent, questionid, questiontime]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategytopphoto_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [updatetime, strategytopphotorealname, strategytopphotoid, strategytopphotofilename]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategyfile_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, strategyfileid, updatetime, amountofdownload, strategyphotorealname, strategyfilerealname, cityname, strategyfilename, strategyphotofilename]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.topphoto_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [topphotoid, updatetime, topphotofilename, topphotorealname]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.traveldestination_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [cityphotofilename, isthemetype, fooddescription, cityphotorealname, istopseason, trafficphotorealname, themenickname, ishometopseason, area, trafficphotofilename, shoppingphotorealname, description, spotphotorealname, province, ishomethemetype, shoppingdescription, themetype, topseason, shoppingphotofilename, foodphotorealname, homeorabroad, spotdescription, spotphotofilename, trafficdescription, foodphotofilename, cityname]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotetopphoto_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotetopphotoid, travelnotetopphotofilename, updatetime, travelnotetopphotorealname]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnote_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, publictime, travelnoteid, travelnotefilename, travelnoteauthor, travelnotecontent, travelnotename, travelnoterealname, cityname]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotephoto_info
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotephotoauthor, travelnotephotofilename, travelnotename, travelnotephotorealname, travelnotephotoid]
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:41:08 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:41:08 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:217)]    INFO - schema update complete
+13:48:04 [org.hibernate.annotations.common.Version.<clinit>(Version.java:37)]    INFO - Hibernate Commons Annotations 3.2.0.Final
+13:48:04 [org.hibernate.cfg.Environment.<clinit>(Environment.java:603)]    INFO - Hibernate 3.6.10.Final
+13:48:04 [org.hibernate.cfg.Environment.<clinit>(Environment.java:636)]    INFO - hibernate.properties not found
+13:48:04 [org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:814)]    INFO - Bytecode provider name : javassist
+13:48:04 [org.hibernate.cfg.Environment.<clinit>(Environment.java:695)]    INFO - using JDK 1.4 java.sql.Timestamp handling
+13:48:05 [org.hibernate.cfg.Configuration.configure(Configuration.java:2156)]    INFO - configuring from resource: /hibernate.cfg.xml
+13:48:05 [org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2175)]    INFO - Configuration resource: /hibernate.cfg.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/AdminInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelDestinationInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/QuestionInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNoteInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNotePhotoInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyFileInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TopPhotoInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyTopPhotoInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelnoteTopPhotoInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/JourneyInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/ProductInfo.hbm.xml
+13:48:05 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:48:05 [org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2297)]    INFO - Configured SessionFactory: null
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.AdminInfo -> admin_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelDestinationInfo -> traveldestination_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.QuestionInfo -> question_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNoteInfo -> travelnote_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNotePhotoInfo -> travelnotephoto_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyFileInfo -> strategyfile_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TopPhotoInfo -> topPhoto_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyTopPhotoInfo -> strategyTopPhoto_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelnoteTopPhotoInfo -> travelnoteTopPhoto_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.JourneyInfo -> journey_info
+13:48:05 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.ProductInfo -> product_info
+13:48:05 [org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL(Configuration.java:1676)]    INFO - Hibernate Validator not found: ignoring
+13:48:05 [org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)]    INFO - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+13:48:05 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)]    INFO - Using Hibernate built-in connection pool (not for production use!)
+13:48:05 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)]    INFO - Hibernate connection pool size: 20
+13:48:05 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)]    INFO - autocommit mode: true
+13:48:05 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)]    INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql:///cua_test
+13:48:05 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)]    INFO - connection properties: {user=root, password=****, autocommit=true}
+13:48:05 [org.hibernate.dialect.Dialect.<init>(Dialect.java:136)]    INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+13:48:05 [org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:79)]    INFO - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:126)]    INFO - Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:132)]    INFO - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+13:48:05 [org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)]    INFO - Using default transaction strategy (direct JDBC transactions)
+13:48:05 [org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:83)]    INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:179)]    INFO - Automatic flush during beforeCompletion(): disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)]    INFO - Automatic session close at end of transaction: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:190)]    INFO - JDBC batch size: 15
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:193)]    INFO - JDBC batch updates for versioned data: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:198)]    INFO - Scrollable result sets: enabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:206)]    INFO - JDBC3 getGeneratedKeys(): enabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:214)]    INFO - Connection release mode: auto
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:238)]    INFO - Maximum outer join fetch depth: 2
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:241)]    INFO - Default batch fetch size: 1
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:245)]    INFO - Generate SQL with comments: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:249)]    INFO - Order SQL updates by primary key: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)]    INFO - Order SQL inserts for batching: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:431)]    INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+13:48:05 [org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)]    INFO - Using ASTQueryTranslatorFactory
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)]    INFO - Query language substitutions: {}
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:266)]    INFO - JPA-QL strict compliance: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:271)]    INFO - Second-level cache: enabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)]    INFO - Query cache: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:406)]    INFO - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:285)]    INFO - Optimize cache for minimal puts: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:294)]    INFO - Structured second-level cache entries: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:314)]    INFO - Echoing all SQL to stdout
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:323)]    INFO - Statistics: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:327)]    INFO - Deleted entity synthetic identifier rollback: disabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:343)]    INFO - Default entity-mode: pojo
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:347)]    INFO - Named query checking : enabled
+13:48:05 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:351)]    INFO - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+13:48:05 [org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:202)]    INFO - building session factory
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@a4488
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [blob] overrides previous : org.hibernate.type.BlobType@19e215b
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@19e215b
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [clob] overrides previous : org.hibernate.type.ClobType@9ff0a8
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@9ff0a8
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@70be88
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1ecfe07
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@199939
+13:48:05 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@9a9b65
+13:48:05 [org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)]    INFO - Not binding factory to JNDI, no JNDI name configured
+13:48:05 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:155)]    INFO - Running hbm2ddl schema update
+13:48:05 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:167)]    INFO - fetching database metadata
+13:48:05 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:179)]    INFO - updating schema
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.admin_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [adminnumber, loginname, adminsex, adminphonenumber, adminmail, adminname, adminrole, adminpassword, adminid, admindepartment]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.journey_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [journeydescription, journeytitle, journeyrealname, journeydaynumber, journeyfilename, journeyid, productname]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.product_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, startdate, productrealname, productfilename, productid, productcellphone, cityname, productdescription, enddate, productprice, productname]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.question_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [questionname, questioncontent, questionid, questiontime]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategytopphoto_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [updatetime, strategytopphotorealname, strategytopphotoid, strategytopphotofilename]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategyfile_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, strategyfileid, updatetime, amountofdownload, strategyphotorealname, strategyfilerealname, cityname, strategyfilename, strategyphotofilename]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.topphoto_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [topphotoid, updatetime, topphotofilename, topphotorealname]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.traveldestination_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [cityphotofilename, isthemetype, fooddescription, cityphotorealname, istopseason, trafficphotorealname, themenickname, ishometopseason, area, trafficphotofilename, shoppingphotorealname, description, spotphotorealname, province, ishomethemetype, shoppingdescription, themetype, topseason, shoppingphotofilename, foodphotorealname, homeorabroad, spotdescription, spotphotofilename, trafficdescription, foodphotofilename, cityname]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotetopphoto_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotetopphotoid, travelnotetopphotofilename, updatetime, travelnotetopphotorealname]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnote_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, publictime, travelnoteid, travelnotefilename, travelnoteauthor, travelnotecontent, travelnotename, travelnoterealname, cityname]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotephoto_info
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotephotoauthor, travelnotephotofilename, travelnotename, travelnotephotorealname, travelnotephotoid]
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:48:05 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:48:05 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:217)]    INFO - schema update complete
+13:51:54 [org.hibernate.annotations.common.Version.<clinit>(Version.java:37)]    INFO - Hibernate Commons Annotations 3.2.0.Final
+13:51:54 [org.hibernate.cfg.Environment.<clinit>(Environment.java:603)]    INFO - Hibernate 3.6.10.Final
+13:51:54 [org.hibernate.cfg.Environment.<clinit>(Environment.java:636)]    INFO - hibernate.properties not found
+13:51:54 [org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:814)]    INFO - Bytecode provider name : javassist
+13:51:54 [org.hibernate.cfg.Environment.<clinit>(Environment.java:695)]    INFO - using JDK 1.4 java.sql.Timestamp handling
+13:51:54 [org.hibernate.cfg.Configuration.configure(Configuration.java:2156)]    INFO - configuring from resource: /hibernate.cfg.xml
+13:51:54 [org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2175)]    INFO - Configuration resource: /hibernate.cfg.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/AdminInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelDestinationInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/QuestionInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNoteInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelNotePhotoInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyFileInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TopPhotoInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/StrategyTopPhotoInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/TravelnoteTopPhotoInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/JourneyInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.addResource(Configuration.java:789)]    INFO - Reading mappings from resource : cn/cua/domain/ProductInfo.hbm.xml
+13:51:54 [org.hibernate.util.DTDEntityResolver.resolveEntity(DTDEntityResolver.java:73)]    WARN - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+13:51:54 [org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2297)]    INFO - Configured SessionFactory: null
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.AdminInfo -> admin_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelDestinationInfo -> traveldestination_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.QuestionInfo -> question_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNoteInfo -> travelnote_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelNotePhotoInfo -> travelnotephoto_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyFileInfo -> strategyfile_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TopPhotoInfo -> topPhoto_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.StrategyTopPhotoInfo -> strategyTopPhoto_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.TravelnoteTopPhotoInfo -> travelnoteTopPhoto_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.JourneyInfo -> journey_info
+13:51:54 [org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:353)]    INFO - Mapping class: cn.cua.domain.ProductInfo -> product_info
+13:51:54 [org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL(Configuration.java:1676)]    INFO - Hibernate Validator not found: ignoring
+13:51:54 [org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)]    INFO - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+13:51:54 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)]    INFO - Using Hibernate built-in connection pool (not for production use!)
+13:51:54 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)]    INFO - Hibernate connection pool size: 20
+13:51:54 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)]    INFO - autocommit mode: true
+13:51:55 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)]    INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql:///cua_test
+13:51:55 [org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)]    INFO - connection properties: {user=root, password=****, autocommit=true}
+13:51:55 [org.hibernate.dialect.Dialect.<init>(Dialect.java:136)]    INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+13:51:55 [org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:79)]    INFO - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:126)]    INFO - Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:132)]    INFO - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+13:51:55 [org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)]    INFO - Using default transaction strategy (direct JDBC transactions)
+13:51:55 [org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:83)]    INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:179)]    INFO - Automatic flush during beforeCompletion(): disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)]    INFO - Automatic session close at end of transaction: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:190)]    INFO - JDBC batch size: 15
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:193)]    INFO - JDBC batch updates for versioned data: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:198)]    INFO - Scrollable result sets: enabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:206)]    INFO - JDBC3 getGeneratedKeys(): enabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:214)]    INFO - Connection release mode: auto
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:238)]    INFO - Maximum outer join fetch depth: 2
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:241)]    INFO - Default batch fetch size: 1
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:245)]    INFO - Generate SQL with comments: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:249)]    INFO - Order SQL updates by primary key: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)]    INFO - Order SQL inserts for batching: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:431)]    INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+13:51:55 [org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)]    INFO - Using ASTQueryTranslatorFactory
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)]    INFO - Query language substitutions: {}
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:266)]    INFO - JPA-QL strict compliance: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:271)]    INFO - Second-level cache: enabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)]    INFO - Query cache: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:406)]    INFO - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:285)]    INFO - Optimize cache for minimal puts: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:294)]    INFO - Structured second-level cache entries: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:314)]    INFO - Echoing all SQL to stdout
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:323)]    INFO - Statistics: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:327)]    INFO - Deleted entity synthetic identifier rollback: disabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:343)]    INFO - Default entity-mode: pojo
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:347)]    INFO - Named query checking : enabled
+13:51:55 [org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:351)]    INFO - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+13:51:55 [org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:202)]    INFO - building session factory
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@a4488
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [blob] overrides previous : org.hibernate.type.BlobType@19e215b
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@19e215b
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [clob] overrides previous : org.hibernate.type.ClobType@9ff0a8
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@9ff0a8
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@70be88
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1ecfe07
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@199939
+13:51:55 [org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:150)]    INFO - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@9a9b65
+13:51:55 [org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)]    INFO - Not binding factory to JNDI, no JNDI name configured
+13:51:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:155)]    INFO - Running hbm2ddl schema update
+13:51:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:167)]    INFO - fetching database metadata
+13:51:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:179)]    INFO - updating schema
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.admin_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [adminnumber, loginname, adminsex, adminphonenumber, adminmail, adminname, adminrole, adminpassword, adminid, admindepartment]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.journey_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [journeydescription, journeytitle, journeyrealname, journeydaynumber, journeyfilename, journeyid, productname]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.product_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, startdate, productrealname, productfilename, productid, productcellphone, cityname, productdescription, enddate, productprice, productname]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.question_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [questionname, questioncontent, questionid, questiontime]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategytopphoto_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [updatetime, strategytopphotorealname, strategytopphotoid, strategytopphotofilename]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.strategyfile_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, strategyfileid, updatetime, amountofdownload, strategyphotorealname, strategyfilerealname, cityname, strategyfilename, strategyphotofilename]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.topphoto_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [topphotoid, updatetime, topphotofilename, topphotorealname]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.traveldestination_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [cityphotofilename, isthemetype, fooddescription, cityphotorealname, istopseason, trafficphotorealname, themenickname, ishometopseason, area, trafficphotofilename, shoppingphotorealname, description, spotphotorealname, province, ishomethemetype, shoppingdescription, themetype, topseason, shoppingphotofilename, foodphotorealname, homeorabroad, spotdescription, spotphotofilename, trafficdescription, foodphotofilename, cityname]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotetopphoto_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotetopphotoid, travelnotetopphotofilename, updatetime, travelnotetopphotorealname]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnote_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [istop, publictime, travelnoteid, travelnotefilename, travelnoteauthor, travelnotecontent, travelnotename, travelnoterealname, cityname]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:65)]    INFO - table found: cua_test.travelnotephoto_info
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:66)]    INFO - columns: [travelnotephotoauthor, travelnotephotofilename, travelnotename, travelnotephotorealname, travelnotephotoid]
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:68)]    INFO - foreign keys: []
+13:51:55 [org.hibernate.tool.hbm2ddl.TableMetadata.<init>(TableMetadata.java:69)]    INFO - indexes: [primary]
+13:51:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:217)]    INFO - schema update complete
