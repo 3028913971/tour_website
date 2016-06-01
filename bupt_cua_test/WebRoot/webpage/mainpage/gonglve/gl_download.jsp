@@ -12,9 +12,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>中联航旅游攻略</title>
-<meta name="description" content="联航攻略下载">
-<meta name="keywords" content="攻略下载,旅游攻略,联航旅游">
+<title>旅游攻略</title>
+<meta name="description" content="攻略下载">
+<meta name="keywords" content="攻略下载,旅游攻略">
 
 <link href="webpage/mainpage/gonglve/css/gonglve.css" rel="stylesheet"
 	type="text/css">
