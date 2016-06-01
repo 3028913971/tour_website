@@ -5,7 +5,7 @@
 
 
 # 快速开始
-- 下载链接：[点击下载](https://www.baidu.com)
+- 下载链接：[点击下载](https://github.com/jikyoku/tour_website/archive/master.zip)
 - 克隆远程库命令：`git clone https://github.com/jikyoku/tour_website.git .`
 
 ---
