@@ -38,7 +38,7 @@ tour_website/
 		    <property name="hibernate.connection.password">your database passwd</property>
   ```
 - 在浏览器地址栏输入：http://localhost:8080/bupt_cua_test
-- 后台访问地址：http://localhost:8080/bupt_cua_test/login/login.jsp
+- 后台访问地址：http://localhost:8080/bupt_cua_test/login/login.jsp，用户名：admin,密码：1234
 
   
   
